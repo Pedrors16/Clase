@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Ejemplo del uso de formularios</title>
+    </head>
+    <body>
+        <form action="https://es.wikipedia.org/wiki/Nikita_Mazepin" method="get">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <input type="radio" name="sexo" id="varon" value="Varón">
+            <label for="varon">Varón</label>
+            <br><br>
+            <input type="radio" name="sexo" id="mujer" value="Mujer">
+            <label for="mujer">Mujer</label>
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset">
+            <br><br>
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value="TE">Teruel</option>
+                <option value="VA">Valencia</option>
+                <option value="BA">Barcelona</option>
+                <option value="M">Madrid</option>
+                <option value="" selected="selected">Selecciona ciudad...</option>
+            </select>
+        </form>
+    </body>
+</html>
