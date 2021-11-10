@@ -8,18 +8,39 @@
         <meta name="Formulario" content="Ejercicio 4">
     </head>
     <body>
-        <form>
-            <p>Completar</p>
-            <br>
-            <label for="color">Elija un color</label>
-            <input type="color">
-            <br>
-            <input type="textarea" placeholder="Por favor, escriba aquí" size=""> 
+        <form action="https://www.google.com" method="get">
+            <fieldset>
+                <legend>Completar</legend>
+                <label for="color">Elija un color</label>
+                <input type="color">
+                <br>
+                <textarea rows="5" cols="53" placeholder="Por favor, escriba aquí "></textarea>
+                <br>
+                <select name="lenguaje" id="lenguaje">
+                    <option value="java">Java</option>
+                    <option value="python">Python</option>
+                    <option value="html">Html</option>
+                    <option value="visual_basic">Visual Basic</option>
+                </select>
+                <br>
+                <input type="checkbox" name="ciclo" value="cicloasir">
+                <label for="cicloasir">ASIR</label>
+                <input type="checkbox" name="ciclo" value="ciclodam">
+                <label for="ciclodam">DAM</label>
+                <input type="checkbox" name="ciclo" value="ciclodaw">
+                <label for="ciclodaw">DAW</label>
+            </fieldset>
+            <fieldset>
+                <legend>Rellene las opciones siguientes</legend>
+                <label for="date">Elija un fecha</label>
+                <input type="date">
+                <br>
+                <label for="file">Elija un fichero</label>
+                <input type="file">
+                
 
 
-
-
-
+            </fieldset>
         </form>
     </body>
 </html>
