@@ -1,0 +1,27 @@
+@charset "utf-8";
+#id1 {
+    color:blueviolet 
+}
+#id2 {
+    color: green;
+}
+#id3 {
+    font-size: 24pt;
+    color: red;
+    font-family: Verdana;
+}
+#id4 {
+    color: red;
+}
+#id5 {
+    color: blue;
+}
+#id6 {
+    font-size:x-large;
+}
+#id7 {
+    font-family:'Lucida Sans';
+}
+#id8 {
+    font-family:'Segoe UI';
+}
