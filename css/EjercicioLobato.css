@@ -1,0 +1,13 @@
+@charset "utf8";
+#div1 {
+    background-color:red;
+    padding-bottom: 5px;
+}
+#div2 {
+    background-color: blue;
+}
+#div3 {
+    background-color: green; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
