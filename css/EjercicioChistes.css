@@ -1,0 +1,22 @@
+@charset "utf-8";
+body { 
+    background-color: darkred;
+    padding: 20px;
+}
+#id1{
+    padding: 15px;
+    background-color: deepskyblue;
+}
+#id2{
+    background-color: pink;
+}
+#id3{
+    background-color: blue;
+}
+.id4{
+    background-color: blue;
+    border-right:solid 4px darkred;
+    float: left;
+}
+.id5
+
