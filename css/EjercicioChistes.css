@@ -9,17 +9,24 @@ body {
 }
 #id2{
     background-color: pink;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 #id3{
     background-color: blue;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 500px;
 }
 .id4{
     background-color: blue;
     border-right:solid 4px darkred;
     float: left;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 .id5{
-    
     border-right: solid 4px black;
     border-bottom: solid 4px black; 
 }
