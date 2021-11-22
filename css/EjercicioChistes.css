@@ -18,5 +18,9 @@ body {
     border-right:solid 4px darkred;
     float: left;
 }
-.id5
+.id5{
+    
+    border-right: solid 4px black;
+    border-bottom: solid 4px black; 
+}
 
