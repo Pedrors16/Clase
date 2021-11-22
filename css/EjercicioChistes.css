@@ -22,12 +22,16 @@ body {
 .id4{
     background-color: blue;
     border-right:solid 4px darkred;
+    height: 455px; 
     float: left;
     padding-right: 10px;
     padding-left: 10px;
+    color:white;
+    
 }
 .id5{
     border-right: solid 4px black;
     border-bottom: solid 4px black; 
+    color: white;
 }
 
