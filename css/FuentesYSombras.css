@@ -1,4 +1,10 @@
 @charset "utf-8";
-#id1 {
-
+@font-face {
+    font-family: Creepster;
+    src: url('../fonts/Creepster-Regular.ttf');
+} 
+.sombra1{
+   font-family: Creepster;
+   text-shadow: 1px 1px 1px darkred;
+   font-size: 30px;
 }
