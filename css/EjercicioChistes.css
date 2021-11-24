@@ -34,4 +34,6 @@ body {
     border-bottom: solid 4px black; 
     color: white;
 }
-
+.id6{
+    box-shadow: black 5px 5px 5px; 
+}
