@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*Fuente para el h1*/
+@font-face {
+    font-family: Creepster;
+    src: url('../Divs/fonts/Creepster-Regular.ttf'); 
+}
+/*Color para el body*/
+body {
+    background-color: pink;
+}
+/*Imagen de fondo div1*/
+.div1 {
+    background-image: url(../Divs/img/gatete.jpeg); 
+    background-repeat: repeat;
+    background-size: 20%;
+    padding: 20px;
+    padding-bottom: 65px;
+    box-shadow: red 10px 10px;
+}
+/*Fuente del h1*/
+.h1 {
+    font-family: Creepster;
+}
+/*Bordes para los divs2*/
+.div2 {
+    border-style: solid;
+    padding: 20px;
+}
+/*Tamaño y posicion foto1*/
+#foto {
+    height: 15%;
+    width: 15%;
+    float: left;
+    padding: 8px;
+}
+/*Tamaño y posicion foto2*/
+#foto2 {
+    height: 15%;
+    width: 10%;  
+    float: right;
+    padding: 8px;
+}
+
+
+
+

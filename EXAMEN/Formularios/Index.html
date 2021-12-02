@@ -1,0 +1,45 @@
+<!--Autor Pedro Rodríguez 02/12/2021-->
+<!--Examen-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>FormularioExamen</title>
+        <meta charset="utf-8">
+        <meta name="Examen" content="FormularioExamen">
+    </head>
+    <body>
+        <h1>Información sobre el producto</h1>
+        <form action="https://es.wikipedia.org/wiki/Nikita_Mazepin" method="get">
+            <fieldset>
+                <legend>Datos básicos</legend>
+                <p>Nombre</p>
+                <input type="text" name="Nombre" id="Nombre">
+                <p>Descripción</p>
+                <textarea rows="10" cols="30"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Económicos</legend>
+                <label for="Precio">Precio</label>
+                    <input type="text" name="Precio" id="Precio"> 
+                    <label for="Impuestos">€ Impuestos</label>
+                    <select name="Impuestos" id="Impuestos">
+                        <option value="4%">4%</option>
+                        <option value="16%">16%</option>
+                        <option value="21%">21%</option>
+                    </select>
+                    <p>Promoción</p>
+                    <input type="radio" name="Ninguno" value="Ninguno" id="Ninguno">
+                    <label for="Ninguno">Ninguno</label>
+                    <br>
+                    <input type="radio" name="Transporte" value="Transporte" id="Transporte">
+                    <label for="Transporte">Transporte Gratuito</label>
+                    <br>
+                    <input type="radio" name="Descuento" value="Descuento" id="Descuento">
+                    <label for="Descuento">Descuento del 5%</label>
+
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar"
+        </form>
+    </body>
+</html>
