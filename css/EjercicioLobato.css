@@ -7,8 +7,9 @@
     background-color: blue;
 }
 #div3 {
-    background-color: green; 
+    background-color: transparent; 
     padding-top: 5px; 
     padding-bottom: 5px;
-    background-image: url(../img/lobato.jpg);
+    background-image: url(../img/lobato.jpg) ;
+    
 }
