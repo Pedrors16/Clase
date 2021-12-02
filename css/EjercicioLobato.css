@@ -11,5 +11,6 @@
     padding-top: 5px; 
     padding-bottom: 5px;
     background-image: url(../img/lobato.jpg) ;
+    background-repeat:no-repeat;
     
 }
