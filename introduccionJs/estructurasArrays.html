@@ -1,0 +1,30 @@
+<!-- ejemplos JS-->
+<!-- Autor: Sara Gonzalez Cuervo-->
+<!-- Fecha Enero2022-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ejemplos Javascript estructuras Arrays</title>
+    </head>
+
+    <body>
+        <script type="text/javascript">
+            var vector=[];
+            vector.length=10;
+            for (var i=0; i<vector.length;i++) {
+                vector[i]=prompt("introduce los elementos del vector");
+            }
+            for (var i=0;i<vector.length; i++){
+                document.write(vector[i]," ");
+            }
+            document.write("<br>");
+            for (var i in vector){
+                document.write(vector[i]," ");
+            }
+            
+        </script>
+    </body>
+</html>

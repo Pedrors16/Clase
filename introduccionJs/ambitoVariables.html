@@ -1,0 +1,7 @@
+i = "global";
+function foo() {
+    i = "local";
+    console.log(i); // local
+}
+foo();
+console.log(i); // local
