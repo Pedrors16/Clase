@@ -12,7 +12,22 @@
         var nombre = "Pako"; 
         var apellido = " Tsunoda";
         var sueldo = 2500;
-        document.write("Nombre del empleado: " + nombre + apellido +" y el sueldo es de: " + sueldo); 
+        document.write("Nombre del empleado: " + nombre + apellido+ "<br/> Y cobra: " + sueldo + "<br/>");
+    </script>
+    <script>
+        nombre=prompt("Introduce nombre");
+        var edad = null;
+        var altura = null;
+        edad=prompt("Introducir edad");
+        altura=prompt("Introducir altura");
+        var estadoCivil = false;
+        estadoCivil=confirm ("Aceptar para casado");
+        document.write("Nombre del empleado: " + nombre + "<br/> Tiene " + edad + " años " + "<br/>Mide " + altura + " centimetros <br/>Estado civil: ");
+        if (estadoCivil) {
+            document.write("Casado");
+        } else {
+            document.write("Soltero");
+        } 
     </script>
     </body>
 </html>
