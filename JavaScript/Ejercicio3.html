@@ -8,6 +8,26 @@
         <meta name="Ejercicio3" content="Ejercicio3">
     </head>
     <body>
-    
+        	<script>
+                var nota = null;
+                nota = prompt("Introduzca nota")
+                if (nota>='5') {  
+                    document.write("Esta aprobado con una nota de: " + nota );
+                } else{
+                    document.write("Esta suspenso");
+                }
+            </script>
+            <br/>
+            <script>
+                var nota1 = null;
+                var nota2 = null;
+                var nota3 = null;
+                nota1 = prompt("Introduzca la primera nota");
+                nota2 = prompt("Introduzca la segunda nota");
+                nota3 = prompt("introduzca la tercera nota");
+                var suma = parseInt(nota1) + parseInt (nota2) + parseInt(nota3);
+                var promedio = suma / '3';
+                document.write("La nota media es:" + promedio);
+                </script>
     </body>
 </html>
