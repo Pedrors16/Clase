@@ -13,13 +13,15 @@
             var mes;
             var año;
             dia = parseInt(prompt("Introduce dia"));
-            mes = parseInt(prompt("Introduzca mes"));
+            mes = parseInt(prompt("Introduzca mes"))-1;
             año = parseInt(prompt("Introduzca año"));
             var fecha;
             fecha = new Date();
             fecha.setFullYear(año,mes,dia);
-            if(fecha.getMonth == 12 && fecha.getDay == 25){
-                document.write("Es Navidad YUHU")
+            console.log(dia);
+            console.log(fecha.getDay());
+            if(fecha.getMonth() == 11 && fecha.getDate() == '25'){
+                document.write("Es Navidad YUHU");
             }
         </script>
     </body>
