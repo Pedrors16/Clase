@@ -9,7 +9,18 @@
     </head>
     <body>
         <script>
-            
+            var dia;
+            var mes;
+            var año;
+            dia = parseInt(prompt("Introduce dia"));
+            mes = parseInt(prompt("Introduzca mes"));
+            año = parseInt(prompt("Introduzca año"));
+            var fecha;
+            fecha = new Date();
+            fecha.setFullYear(año,mes,dia);
+            if(fecha.getMonth == 12 && fecha.getDay == 25){
+                document.write("Es Navidad YUHU")
+            }
         </script>
     </body>
 </html>
