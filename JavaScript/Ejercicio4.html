@@ -43,5 +43,14 @@
                 document.write("<br/> Clave correcta");
             }
         </script>
+        <script>
+            var num = -1;
+            while (num <= 0 || num >= 100){
+                num = parseInt(prompt("Introduzca un numero entro 1 y 99"));
+            }          
+            if (num.toString().length == 2){
+                alert(num + " es un numero con dos digitos");
+            }
+        </script>
     </body>
 </html>
