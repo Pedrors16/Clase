@@ -4,7 +4,7 @@ document.getElementById('whiteButton').onclick = switchWhite;
 document.getElementById('blueButton').onclick = switchBlue;
 document.getElementById('yellowButton').onclick = switchYellow;
 document.getElementById('greenButton').onclick = switchGreen;
-document.getElementById('elbicho').onclick = switchHuevo;
+document.getElementById('lol').onclick = switchHuevo;
 //Cambia la fuente y el fondo de pantalla
 function switchGray(){
   document.getElementsByTagName('body')[0].style.backgroundColor = 'gray';
@@ -30,7 +30,7 @@ function switchGreen(){
 }
 
 function switchHuevo(){
-  console.log(document.getElementsByTagName('elbicho').src);
-  document.getElementsByTagName('elbicho').src="1.jpg";
+  console.log(document.getElementById('lol').src);
+  document.getElementById('lol').src="1.jpg";
 }
 //Añade el código necesario para que al pulsar el botón amarillo el fondo sea amarillo y la fuente verde. 
