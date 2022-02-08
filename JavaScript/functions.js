@@ -30,6 +30,7 @@ function switchGreen(){
 }
 
 function switchHuevo(){
-  document.getElementsByTagName('elbicho').src = "../JavaScript/25ef2edc-495e-43a1-9b6d-c95fac4fd478.jpg";
+  console.log(document.getElementsByTagName('elbicho').src);
+  document.getElementsByTagName('elbicho').src="1.jpg";
 }
 //Añade el código necesario para que al pulsar el botón amarillo el fondo sea amarillo y la fuente verde. 
