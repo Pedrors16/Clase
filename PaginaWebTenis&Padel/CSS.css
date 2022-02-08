@@ -1,12 +1,16 @@
 @charset "utf-8";
 body{
-    background-image: url(../PaginaWebTenis&Padel/Img/pista-de-tenis-2.jpg);
+    background-image: url(../PaginaWebTenis&Padel/Img/98.webp);
     background-repeat:no-repeat;
     background-size: 100%;
 }
-#id1{
-    background-color: khaki;
-    background-size: 5%;
-    
+#Nombre{
+    background-color:blanchedalmond;
     text-align: center;
+    background-size:2%;
+}
+#Titulo{
+    background-color: blanchedalmond;
+    text-align: center;
+    background-size: 10%;
 }
