@@ -30,7 +30,8 @@ function switchGreen(){
 }
 
 function switchHuevo(){
-  console.log(document.getElementById('lol').src);
   document.getElementById('lol').src="1.jpg";
+
 }
+
 //Añade el código necesario para que al pulsar el botón amarillo el fondo sea amarillo y la fuente verde. 
