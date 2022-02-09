@@ -40,11 +40,19 @@
             num2 = parseInt(prompt("Introduzca el segundo numero"));
             num3 = parseInt(prompt("Introduzca el tercer numero"));
             if (num1 <10 && num2 < 10 && num3 < 10){
-                document.write(" <br/> Todos los numeros son menores a 10");
+                document.write("Todos los numeros son menores a 10");
             }
         </script>
         <script>
-
+            var comprobante = false;
+            for (i=0 ; i<3 ; i++){
+                if (parseInt(prompt("Introduzca un numero"))<10){
+                  comprobante = true;  
+                }
+            }
+            if (comprobante){
+                document.write("<br/> Algún numero es menores que 10");
+            }
         </script>
         <script>
             var mes;
