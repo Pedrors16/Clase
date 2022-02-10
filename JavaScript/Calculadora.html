@@ -1,0 +1,64 @@
+<!--Autor Pedro Rodríguez 09/02/2021-->
+<!--Ejercicio Calculadora-->
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Calculadora</title>
+        <meta charset="utf-8">
+        <meta name="Calculadora" content="Calculadora">
+    </head>
+    <body>
+        <script>
+            class Calculadora {
+                constructor(){
+
+                }
+                suma(num1,num2){
+                    return num1 + num2;
+                }
+                resta(num1,num2){
+                    return num1 - num2;
+                }
+                multipliacion(num1,num2){
+                    return num1 * num2;
+                }
+                division(num1,num2){
+                    return num1 / num2;
+                }
+            }
+                var calculadora=new Calculadora();
+                function HacerSuma(num1,num2){
+                    document.getElementById("Resultado").value=calculadora.suma(parseInt(num1),parseInt(num2));
+                }
+                function HacerResta(){
+                    document.getElementById("Resultado").value=calculadora.resta(parseInt(num1),parseInt(num2));
+                }
+                function HacerMultiplicacion(){
+                    document.getElementById("Resultado").value=calculadora.multipliacion(parseInt(num1),parseInt(num2));
+                }
+                function HacerDivision(){
+                    document.getElementById("Resultado").value=calculadora.division(parseInt(num1),parseInt(num2));
+                }
+
+        </script>
+        <div style="height: 20%; width: 20%; border-style: solid; border-color: coral;
+         border-width: 2px; text-align: center;">
+            <label for="Numero1">Numero 1</label>
+            <input type="number" name="Numero1" id="Numero1">
+            <br/><br/>
+            <label for="Numero2">Numero 2</label>
+            <input type="number" name="Numero2" id="Numero2">
+            <br/><br/>
+            <input type="button" value="+" id="Suma" onclick = "HacerSuma(Numero1.value, Numero2.value)">
+            <input type="button" value="-" id="Resta" onclick = "HacerResta(Numero1.value, Numero2.value)">
+            <br/>
+            <input type="button" value="x" id="Multiplicacion" onclick = "HacerMultiplicacion(Numero1.value, Numero2.value)">
+            <input type="button" value="/" id="Division" onclick = "HacerDivision(Numero1.value, Numero2.value)">
+            <br/>
+            <input type="reset" name="reset" id="Reset">
+            <br/><br/>
+            <label for="Resultado">Resultado</label>
+            <input type="number" name="Resultado" id="Resultado">
+        </div>
+    </body>
+</html>
