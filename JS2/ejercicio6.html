@@ -1,0 +1,28 @@
+<!--controlar el valor de la variable contador, estableciendo un punto de interrupcion
+en la ejecucion del programa. Que error en la declaracion de variables no permite ver el 
+ultimo document.write y como lo solucionarias?-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <script language="javascript">
+        {
+            var contador;
+            contador=1;
+            while (contador<5)
+            {
+            let dato=prompt('Introduce número del 1 al 10:','');
+            let num=parseInt(dato);
+            document.write(` El numero introducido es ${num} </br> `);
+            document.write(` El contador es ${contador} </br> `);
+            contador = contador +1 ;
+            }
+        document.write( 'Fin del programa el contador ya NO es menor que 5.');
+        document.write (`</br> Ultimo numero introducido es ${num}`)
+        }
+    </script>
+</body>
+</html>
