@@ -9,7 +9,22 @@ body{
     text-align: center;
     background-size:2%;
 }
+#Interes{
+    background-color:blanchedalmond;
+    text-align: center;
+    size: 2%;
+    float: left;
+    padding: 0.02px;
+    margin-right: 20px ;
+}
 #Titulo{
     background-color: blanchedalmond;
     text-align: center;
+    size: 2%;
+    padding: 0.02%;
+    margin-left: 20px;
+}
+#Espacio{
+    background-color: aqua;
+    size: 0.01%;
 }
