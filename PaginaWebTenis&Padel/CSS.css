@@ -11,16 +11,18 @@ body{
     padding-bottom: 5%;
     background-image: url(../PaginaWebTenis&Padel/Img/589704135_192111267_1024x576.jpg);
     background-size: 100%;
-
+    text-shadow:2px -2px 1px black;
 }
-
-/* #Interes{
+#OtrasPags{
+    
+}
+#Interes{
     background-color:blanchedalmond;
     text-align: center;
     size: 2%;
     padding: 0.02px;
 }
-#Titulo{
+/*#Titulo{
     background-color: blanchedalmond;
     text-align: center;
     size: 2%;
