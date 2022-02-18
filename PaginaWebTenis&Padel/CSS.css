@@ -5,13 +5,16 @@ body{
     background-size: 100%;
 }
 #Nombre{
-    background-image: url(../PaginaWebTenis&Padel/Img/98.webp);
-    background-size: 100%;
     text-align: center;
-    size: 10%;
-    color: white;
+    color:deepskyblue;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url(../PaginaWebTenis&Padel/Img/589704135_192111267_1024x576.jpg);
+    background-size: 100%;ç
+
 }
-#Interes{
+
+/* #Interes{
     background-color:blanchedalmond;
     text-align: center;
     size: 2%;
@@ -22,4 +25,4 @@ body{
     text-align: center;
     size: 2%;
     padding: 0.02%;
-}
+} */
