@@ -14,7 +14,14 @@ body{
     text-shadow:2px -2px 1px black;
 }
 #OtrasPags{
-    
+    margin: auto;
+    background-color: aqua;
+    background-size: 100px;
+}
+#Boton{
+    margin: auto;
+    width: 200px;
+    height: 70px;
 }
 #Interes{
     background-color:blanchedalmond;
