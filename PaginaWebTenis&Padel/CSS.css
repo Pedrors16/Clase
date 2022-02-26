@@ -17,23 +17,41 @@ body{
     text-align: center;
     width: 100%;
     min-width: 100%;
-    margin: auto;
     background-size: 100px;
 }
 #Boton{
     margin: auto;
-    width: 15%;
+    width: 10%;
     height: 50px;
 }
 #Interes{
-    background-color:blanchedalmond;
+    background-color:chartreuse;
     text-align: center;
-    size: 2%;
+    width: 20%;
+    height: 2000px;
     padding: 0.02px;
+    float: left;
 }
-/*#Titulo{
-    background-color: blanchedalmond;
+#Registro{
+    background-color:blueviolet;
+    text-align: center;
+    width: 20%;
+    height: 2000px;
+    padding: 0.02px;
+    float: right;
+}
+#Titulo{
+    background-color: red;
     text-align: center;
     size: 2%;
     padding: 0.02%;
-} */
+}
+#Parrafo{
+    background-color:aqua;
+    text-align: justify;
+    font-size:large;
+    margin: auto;
+    padding: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
