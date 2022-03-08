@@ -6,7 +6,7 @@ body{
 }
 #Nombre{
     text-align: center;
-    color:deepskyblue;
+    color:white;
     padding-top: 5%;
     padding-bottom: 5%;
     background-image: url(../PaginaWebTenis&Padel/Img/589704135_192111267_1024x576.jpg);
@@ -14,7 +14,7 @@ body{
     text-shadow:2px -2px 1px black;
 }
 #OtrasPags{
-    background-color: darkkhaki;
+    background-color: white;
     text-align: center;
     width: 100%;
     min-width: 100%;
@@ -26,7 +26,7 @@ body{
     height: 50px;
 }
 #Interes{
-    background-color:chartreuse;
+    background-color:white;
     text-align: center;
     width: 20%;
     height: 3000px;
@@ -34,7 +34,7 @@ body{
     float: left;
 }
 #Registro{
-    background-color:blueviolet;
+    background-color:white;
     text-align: center;
     width: 20%;
     height: 3000px;
@@ -42,34 +42,34 @@ body{
     float: right;
 }
 #UsuariosWeb{
-    background-color:magenta;
+    background-color:white;
     text-align: center;
     width: 100%;
     height: 200px;
     padding: 0.02px;
 }
 #RedesSociales{
-    background-color:dimgrey;
+    background-color:white;
     text-align: center;
     width: 100%;
     height: 1000px;
     padding: 0.02px;
 }
 #InfoAutor{
-    background-color:cornflowerblue;
+    background-color:white;
     text-align: center;
     width: 100%;
     height: 300px;
     padding: 0.02px;
 }
 #Titulo{
-    background-color: red;
+    background-color: white;
     text-align: center;
     size: 2%;
     padding: 0.02%;
 }
 #Parrafo{
-    background-color:aqua;
+    background-color:white;
     text-align: justify;
     font-size:large;
     margin: auto;
@@ -92,4 +92,8 @@ body{
     margin: auto;
     height: 700px;
     width: 700px;
+}
+#foto{
+    width: 70%;
+    height: 7%;
 }
