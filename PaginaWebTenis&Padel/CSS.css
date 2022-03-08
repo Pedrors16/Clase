@@ -14,10 +14,10 @@ body{
     text-shadow:2px -2px 1px black;
 }
 #OtrasPags{
-    background-color: white);
+    background-color:white;
     text-align: center;
     width: 100%;
-    min-width:100%;
+    min-width: 100%;
     background-size: 100px;
 }
 #Boton{
@@ -26,7 +26,7 @@ body{
     height: 50px;
 }
 #Interes{
-    background-color:white);
+    background-color:white;
     text-align: center;
     width: 20%;
     height: 3000px;
@@ -56,13 +56,13 @@ body{
     padding: 0.02px;
 }
 #InfoAutor{
-    background-color:white);
+    background-color:white;
     text-align: center;
     width: 100%;
     height: 750px;
 }
 #Titulo{
-    background-color: white;
+    background-color:white;
     text-align: center;
     size: 2%;
     padding: 0.02%;
