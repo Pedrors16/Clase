@@ -1,0 +1,21 @@
+@charset "utf-8";
+@font-face {
+    font-family:FiraSanz;
+    src: url('../PaginaWebTenis&Padel/fuentes/FiraSans-Regular.ttf');
+}
+Body{
+    font-family: FiraSanz;
+    text-align: center;
+    background-color: rgb(225, 247, 167);
+}
+#Pistas{
+    font-size: medium;
+}
+#foto{
+    width: 1000px;
+    height: 500px;
+}
+#foto2{
+    width: 700px;
+    height: 1000px;
+}
