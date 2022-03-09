@@ -9,9 +9,9 @@ body{
     background-repeat:no-repeat;
     background-size: 100%;
 }
-body p:hover{
+/*body p:hover{
     font-size: 30px;
-}
+}*/
 #sombra1{
     border-bottom: solid 2px black ;
     padding: 5%;
@@ -89,7 +89,9 @@ body p:hover{
     padding: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    
+}
+#Parrafo p:hover{
+    font-size: 30px;
 }
 #Foto1{
     display: block;
