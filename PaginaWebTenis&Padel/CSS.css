@@ -1,4 +1,8 @@
 @charset "utf-8";
+@font-face {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    src: url(../PaginaWebTenis&Padel/fuentes/FiraSans-Regular.ttf);
+}
 body{
     background-color: white;
     background-repeat:no-repeat;
