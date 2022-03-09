@@ -1,14 +1,16 @@
 @charset "utf-8";
 @font-face {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    src: url(../PaginaWebTenis&Padel/fuentes/FiraSans-Regular.ttf);
+    font-family:FiraSanz;
+    src: url('../PaginaWebTenis&Padel/fuentes/FiraSans-Regular.ttf');
 }
 body{
+    font-family: FiraSanz;
     background-color: white;
     background-repeat:no-repeat;
     background-size: 100%;
 }
 #Nombre{
+    font-family: FiraSanz;
     text-align: center;
     color:white;
     padding-top: 5%;
@@ -73,6 +75,7 @@ body{
     padding: 0.02%;
 }
 #Parrafo{
+    font-family: FiraSanz;
     background-color:white;
     text-align: justify;
     font-size:large;
