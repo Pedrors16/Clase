@@ -9,6 +9,9 @@ body{
     background-repeat:no-repeat;
     background-size: 100%;
 }
+body p:hover{
+    font-size: 30px;
+}
 #sombra1{
     border-bottom: solid 2px black ;
     padding: 5%;
@@ -91,8 +94,6 @@ body{
 #Foto1{
     display: block;
     margin: auto;
-    height: 15%;
-    width: 15%;
 }
 #Centro{
     text-align: center;
